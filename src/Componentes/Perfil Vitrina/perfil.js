@@ -21,14 +21,13 @@ render() {
         </header>
         <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark about">
             <div class="col-md-6 px-0 aboutme">
-                <h1 class="display-4 font-italic">Solange Céspedes</h1>
-                <p class="my-3"> <strong><em>"La greda es como una terapia para mí. El hecho de trabajarla, de crear, es un arte, es algo magnífico y maravilloso”.</em></strong>
-                </p>              
+                <h1 class="display-4 loto">Solange Céspedes</h1>
+                <p class=" lead my-3 loto">"La greda es como una terapia para mí. El hecho de trabajarla, de crear, es un arte, es algo magnífico y maravilloso”</p>              
             </div>
-            <p class="mb-0"><a href="##" class="badge badge-primary badge-pill">Contacta con Solange...</a></p>
+            <p class="mb-0"><a href="##" class="badge badge-primary badge-pill loto">Contacta con Solange...</a></p>
         </div>       
         <div class="sobremi">
-                    <h3 class="pb-4 mb-4 font-italic border-bottom"> Sobre Solange
+                    <h3 class="pb-4 mb-4 font-italic border-bottom loto"> Sobre Solange
                     </h3>
                     <p>Nacida y criada en Pomaire. Hace más de 20 años que trabaja la alfarería.</p>
                     <p>Este es un trabajo muy lindo, un trabajo manual, una tradición de Pomaire que ya se está perdiendo y nosotras las mujeres la estamos siguiendo, avanzando, enseñándoles a nuestros hijos.</p>
@@ -49,7 +48,7 @@ render() {
                       class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                       <div class="col p-4 d-flex flex-column position-static">
                           <strong class="d-inline-block mb-2 text-primary text-center">Productos</strong>
-                          <h3 class="mb-0 text-center">Olla arrocera</h3>
+                          <h3 class="mb-0 text-center loto">Olla arrocera</h3>
                           <p class="mb-1 text-muted">Precio: $...</p>
                           <p class="card-text mb-auto text-justify">Mantiene muy bien el calor de los alimentos y es totalmente ecológica, sin eliminar residuos tóxicos en la cocción.</p>
                        
@@ -64,7 +63,7 @@ render() {
                         class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                         <div class="col p-4 d-flex flex-column position-static">
                             <strong class="d-inline-block mb-2 text-primary text-center">Productos</strong>
-                            <h3 class="mb-0 text-center">Juego de Copas</h3>
+                            <h3 class="mb-0 text-center loto">Juego de Copas</h3>
                             <p class="mb-1 text-muted">Precio: $...</p>
                             <p class="card-text mb-auto">Copas de greda pomairina, confeccionadas y bruñidas a mano</p>
                            
@@ -79,7 +78,7 @@ render() {
                         class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                         <div class="col p-4 d-flex flex-column position-static">
                             <strong class="d-inline-block mb-2 text-primary text-center">Productos</strong>
-                            <h3 class="mb-0 text-center">Sartén</h3>
+                            <h3 class="mb-0 text-center loto">Sartén</h3>
                             <p class="mb-1 text-muted">Precio: $...</p>
                             <p class="card-text mb-auto text-justify">Versión pequeña ideal para prearar una tortilla chica o un par de dorados huevos, inclusive puedes prepar panqueques.</p>
                             
@@ -94,7 +93,7 @@ render() {
                       class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                       <div class="col p-4 d-flex flex-column position-static">
                           <strong class="d-inline-block mb-2 text-primary text-center">Productos</strong>
-                          <h3 class="mb-0 text-center">Juego de vasos</h3>
+                          <h3 class="mb-0 text-center loto">Juego de vasos</h3>
                           <p class="mb-1 text-muted">Precio: $...</p>
                           <p class="card-text mb-auto text-justify">Versátil juego de vasos de greda pomairina, confeccionados y bruñidos a mano.</p>
                           
@@ -123,7 +122,7 @@ render() {
                     class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                     <div class="col p-4 d-flex flex-column position-static">
                         <strong class="d-inline-block mb-2 text-primary">Productos</strong>
-                        <h3 class="mb-0">Juego de Copas</h3>
+                        <h3 class="mb-0 loto">Juego de Copas</h3>
                         <div class="mb-1 text-muted">Precio: $...</div>
                         <p class="card-text mb-auto">Copas de greda pomairina, confeccionadas y bruñidas a mano</p>
                     </div>
@@ -137,7 +136,7 @@ render() {
                     class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                     <div class="col p-4 d-flex flex-column position-static">
                         <strong class="d-inline-block mb-2 text-primary">Productos</strong>
-                        <h3 class="mb-0">Juego de vasos</h3>
+                        <h3 class="mb-0 loto">Juego de vasos</h3>
                         <div class="mb-1 text-muted">Precio: $...</div>
                         <p class="mb-auto">Versátil juego de vasos de greda pomairina, confeccionados y bruñidos a mano.</p>
                     </div>
@@ -153,7 +152,7 @@ render() {
                         class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                         <div class="col p-4 d-flex flex-column position-static">
                             <strong class="d-inline-block mb-2 text-primary">Productos</strong>
-                            <h3 class="mb-0">Olla arrocera</h3>
+                            <h3 class="mb-0 loto">Olla arrocera</h3>
                             <div class="mb-1 text-muted">Precio: $...</div>
                             <p class="card-text mb-auto">Mantiene muy bien el calor de los alimentos y es totalmente ecológica, sin eliminar residuos tóxicos en la cocción.</p>
                         </div>
@@ -167,7 +166,7 @@ render() {
                         class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                         <div class="col p-4 d-flex flex-column position-static">
                             <strong class="d-inline-block mb-2 text-primary">Productos</strong>
-                            <h3 class="mb-0">Sartén</h3>
+                            <h3 class="mb-0 loto">Sartén</h3>
                             <div class="mb-1 text-muted">Precio: $...</div>
                             <p class="mb-auto">Versión pequeña ideal para prearar una tortilla chica o un par de dorados huevos, inclusive puedes prepar panqueques.</p>
                         </div>
