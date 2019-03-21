@@ -83,9 +83,10 @@
     margin-bottom: 0;
   }
   
-  /*
-   * Jumbotron
-   */
+.navbar{
+  background: linear-gradient(180deg, #15A3DD 0%, #206FB7 100%);
+  color: white;
+}
 .about{
     background-image: url('./imagenes/image\(2\).png');
     background-position: top;
@@ -106,7 +107,7 @@
 }
 
 .sobremi{
-    background: lightgray;
+    background: #F6F6F6;
     color: black;
     padding: 5%;
     opacity: 0.7;

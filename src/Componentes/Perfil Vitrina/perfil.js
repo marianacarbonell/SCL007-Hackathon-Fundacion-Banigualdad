@@ -13,15 +13,10 @@ render() {
     return (
     <div>
     <div class="container">
-        <header class="blog-header py-3">
+        <header class="blog-header py-3 navbar" >
             <div class="row flex-nowrap justify-content-between align-items-center">
-                <div class="col-4">
-                </div>
-                <div class="col-4 align-items-center">
-                    <a class="blog-header-logo text-dark" href="##">BanIgualdad</a>
-                </div>
-                <div class="col-4 d-flex justify-content-end align-items-center">
-                </div>
+                <a class="blog-header-logo text-white" href="##">BanIgualdad</a>
+             
             </div>
         </header>
         <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark about">
