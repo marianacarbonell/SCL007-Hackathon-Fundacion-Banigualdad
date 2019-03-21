@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-//import logo from './logo.svg';
+import Emprendedores from './Component/';
 import './App.css';
 import PerfilPage from './Componentes/Perfil Vitrina/perfil.js'
 
