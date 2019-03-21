@@ -1,10 +1,9 @@
 nav{
-    background-color: #206FB7;
+    background: -webkit-linear-gradient(90deg, #206FB7 10%, #15A3DD  90%);;
     color: white;
 }
-.icon{
-height:px;
-
+.icon-nav{
+height:60px;
 }
 
 .navbar-toggler{
@@ -17,4 +16,7 @@ color:#1383C4;
 
 .nav-link{
     color:white;
+}
+.navbar-toggler-icon{
+color: #206FB7
 }
