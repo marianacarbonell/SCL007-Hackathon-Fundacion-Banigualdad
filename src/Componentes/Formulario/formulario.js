@@ -6,7 +6,7 @@ class Formulario extends Component {
             <div className="jumbotron blue">
                 <form>
                     <div className="profilePicture">
-                        <img src="http://www.stickpng.com/assets/images/585e4bf3cb11b227491c339a.png" id="profilePicture" />
+                        <img src="http://www.stickpng.com/assets/images/585e4bf3cb11b227491c339a.png" alt="profilePicture" />
                     </div>
                     <div class="form-group row">
                         <label  className="col-md-3 col-form-label text-left">¿Cuál es su nombre?</label>
