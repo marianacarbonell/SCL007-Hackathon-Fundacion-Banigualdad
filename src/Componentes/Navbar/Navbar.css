@@ -2,3 +2,19 @@ nav{
     background-color: #1383C4;
     color: white;
 }
+.icon{
+height:px;
+
+}
+
+.navbar-toggler{
+    background-color: white;
+}
+
+.navbar-light{
+color:#1383C4;
+}
+
+.nav-link{
+    color:white;
+}
